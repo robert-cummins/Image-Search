@@ -1,9 +1,10 @@
 import React from 'react'
 import SearchBar from './SearchBar'
+import axios from 'axios'
 
 class App extends React.Component {
     onSearchSubmit(term){
-        console.log(term)
+        
     }
 
     render() {
